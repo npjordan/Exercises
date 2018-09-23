@@ -11,10 +11,10 @@ function update() {
     console.log(lastName);
     var p1_fullName = firstName + " " + lastName;
     console.log(p1_fullName)
-    if (firstName > 0){
+    if (firstName.indexOf('Nicholas')){
         var p1_valid = true}else{
         var p1_valid = false};
-    if (lastName > 0){
+    if (lastName.indexOf('Jordan')){
         var p1_valid = true}else{
         var p1_valid = false};
     var p1_fullNameLength = p1_fullName.length;
@@ -24,14 +24,21 @@ function update() {
 
 
     // Part 2
-    var emailAddress = getValue('emailAddress');
+    var emailAddress = "nicholas.jordan.10@gmail.com";
     console.log(emailAddress);
-
+    var p2_valid = (email.indexOf('@') > -1);
+    console.log(p2_valid);
+    var p2_emailLength = emailAddress.length;
+    console.log(emailLength);
 
     // Part 3
     var randomNumber = getValue('randomNumber');
     console.log(randomNumber);
-
+    var p3_number = randomNumber;
+    console.log(p3_number);
+    if (isNan(p3_number) = false){p3_number = true
+    }else{p3_number = false
+    };
 
 
 
