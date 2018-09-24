@@ -45,6 +45,13 @@ function update() {
     // Part 4
     var arrayInput = getValue('arrayValue');
     console.log(arrayInput);
+    arrayItems.push("arrayInput");
+    var p4_arrayLength = arrayItems.length;
+    console.log(p4_arrayLength);
+    var p4_valid = return.arrayItems;
+    console.log(p4_valid);
+    
+    
 
 
 
